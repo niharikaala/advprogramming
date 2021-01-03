@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RadiantModelStoreContainer" CdmEntityContainer="RadiantEntities">
+    <EntitySetMapping Name="clients">
+      <EntityTypeMapping TypeName="RadiantModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="Med" ColumnName="Med" />
+          <ScalarProperty Name="Alergies" ColumnName="Alergies" />
+          <ScalarProperty Name="NGP" ColumnName="NGP" />
+          <ScalarProperty Name="AGP" ColumnName="AGP" />
+          <ScalarProperty Name="TPlan" ColumnName="TPlan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
